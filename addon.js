@@ -2,11 +2,11 @@ const { addonBuilder } = require("stremio-addon-sdk");
 const magnet = require("magnet-uri");
 
 const manifest = { 
-    "id": "org.stremio.helloworld",
+    "id": "org.martinkavik.helloworld_proxy",
     "version": "1.0.0",
 
-    "name": "Hello World Addon",
-    "description": "Sample addon providing a few public domain movies",
+    "name": "Hello World Proxy test",
+    "description": "Addon to test proxy",
 
     // set what type of resources we will return
     "resources": [
